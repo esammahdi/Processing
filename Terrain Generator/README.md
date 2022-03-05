@@ -30,7 +30,8 @@ The project offers a UI that allows the user to tweak various parameters such as
 Installation
 ------------
 
-The only prerequisite needed to launch the app is having java (v.17+) installed on your machine. After that you can just run the executable in the [application_windows] folder!
+The only prerequisite needed to launch the app is having java (v.17+) installed on your machine. After that you can just run the executable in the 
+[application.windows](Terrain%20Generator/application.windows) folder!
 
 Usage
 -----

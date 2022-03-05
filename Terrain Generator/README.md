@@ -31,7 +31,7 @@ Installation
 ------------
 
 The only prerequisite needed to launch the app is having java (v.17+) installed on your machine. After that you can just run the executable in the 
-[application.windows](Terrain%20Generator/application.windows) folder!
+[application.windows](application.windows) folder!
 
 Usage
 -----

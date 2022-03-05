@@ -38,6 +38,10 @@ Usage
 -----
 
 Nothing special needed for starting the app, just launch the executable. After that you should be greeted with a screen lik below : 
+<p align="center">
+  <img width="700" align="center" src="https://user-images.githubusercontent.com/9840435/60266022-72a82400-98e7-11e9-9958-f9004c2f97e1.gif" alt="Start screen"/>
+</p
+Terrain Generator/.github_usercontent/javaw_MLv45cfaR4.png
 
 ### Basic operation
 

@@ -1,7 +1,7 @@
-READMINE: Suggested template for software READMEs
+TerrainGenerator: A Procedual 3D Terrain Generator
 =================================================
 
-This is an example README file demonstrating a suggested README file structure for software projects on GitHub.  You can copy this file into your project repository and edit the text as needed.
+A simple procedual 3D terrain generator made using [Processing](https://processing.org/) Language, meant as a project for a Computer Graphics class. The program can also be used as
 
 [![License](https://img.shields.io/badge/License-CC0-lightgray.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Latest release](https://img.shields.io/github/v/release/mhucka/readmine.svg?style=flat-square&color=b44e88)](https://github.com/mhucka/readmine/releases)
@@ -15,8 +15,6 @@ Table of contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Known issues and limitations](#known-issues-and-limitations)
-* [Getting help](#getting-help)
-* [Contributing](#contributing)
 * [License](#license)
 * [Authors and history](#authors-and-history)
 * [Acknowledgments](#acknowledgments)
@@ -25,7 +23,7 @@ Table of contents
 Introduction
 ------------
 
-A simple procedual 3D terrain generator made using [Processing] Language, meant as a project for a Computer Graphics class. The initial goal was to learn how to turn a basic 2D grid into a moving 3D terrain, but it later evolved into displaying pictures and textures on the grid.
+A simple procedual 3D terrain generator made using [Processing](https://processing.org/) Language, meant as a project for a Computer Graphics class. The initial goal was to learn how to turn a basic 2D grid into a moving 3D terrain, but it later evolved into displaying pictures and textures on the grid.
 
 The project offers a UI that allows the user to tweak various parameters such as the width/height of the grid, movement speed/direction ...etc. The changes are reflected in the rendered scene immediatlly.
 
@@ -39,53 +37,29 @@ Usage
 
 Nothing special needed for starting the app, just launch the executable. After that you should be greeted with a screen lik below : 
 <p align="center">
-  <img width="700" align="center" src="https://user-images.githubusercontent.com/9840435/60266022-72a82400-98e7-11e9-9958-f9004c2f97e1.gif" alt="Start screen"/>
+  <img width="700" align="center" src="https://github.com/esammahdi/Processing/blob/main/Terrain%20Generator/.github_usercontent/javaw_MLv45cfaR4.png" alt="Start screen"/>
 </p
-Terrain Generator/.github_usercontent/javaw_MLv45cfaR4.png
 
 ### Basic operation
 
-A suggested approach for using this example README file is as follows:
+The program offers various features to try:
 
-1. Copy the [source file](README.md) for this file to your repository and commit it to your version control system
-2. Delete all the body text but keep the section headings
-3. Write your README content
-4. Commit the new text to your version control system
-5. Update your README file as your software evolves
+1. 
+2. 
+3. 
+4. 
+5. 
 
 The first paragraph in the README file (under the title at the very top) should summarize your software in a concise fashion, preferably using no more than one or two sentences.
 
 <p align="center"><img width="80%" src=".graphics/screenshot-top-paragraph.png"></p>
 
-The space under the first paragraph and _before_ the [Table of Contents](#table-of-contents) is a good location for optional [badges](https://github.com/badges/shields), which are small visual tokens commonly used on GitHub repositories to communicate project status, dependencies, versions, DOIs, and other information.  The particular badges and colors you use depend on your project and personal tastes.
-
-The [Introduction](#introduction) and [Usage](#usage) sections are described above.
-
-In the [Known issues and limitations](#known-issues) section, summarize any notable issues and/or limitations of your software.  The [Getting help](#getting-help) section should inform readers of how they can contact you, or at least, how they can report problems they may encounter.  The [Contributing](#contributing) section is optional; if your repository is for a project that accepts open-source contributions, then this section is where you can explain to readers how they can go about making contributions.
-
-The [License](#license) section should state any copyright asserted on the project materials as well as the terms of use of the software, files and other materials found in the project repository.  Finally, the [Authors and history](#authors-and-history) section should inform readers who the authors are; it is also a place where you can acknowledge other contributions to the work and the use of other people's software or tools.
-
-### Additional options
-
-Some projects need to communicate additional information to users and can benefit from additional sections in the README file.  It's difficult to give specific instructions &ndash; a lot depends on your software, your intended audience, etc.  Use your judgment and ask for feedback from users or colleagues to help figure out what else is worth explaining.
+Finally, the [Authors and history](#authors-and-history) section should inform readers who the authors are; it is also a place where you can acknowledge other contributions to the work and the use of other people's software or tools.
 
 
 Known issues and limitations
 ----------------------------
 
-In this section, summarize any notable issues and/or limitations of your software.  If none are known yet, this section can be omitted (and don't forget to remove the corresponding entry in the [Table of Contents](#table-of-contents) too); alternatively, you can leave this section in and write something along the lines of "none are known at this time".
-
-
-Getting help
-------------
-
-Inform readers of how they can contact you, or at least how they can report problems they may encounter.  This may simply be a request to use the issue tracker on your repository, but many projects have associated chat or mailing lists, and this section is a good place to mention those.
-
-
-Contributing
-------------
-
-Mention how people can offer contributions, and point them to your guidelines for contributing.
 
 
 License

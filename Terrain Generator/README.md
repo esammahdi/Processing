@@ -49,6 +49,11 @@ Nothing special needed for starting the app, just launch the executable. After t
 The program offers various features to try:
 
 1. Noise Algorithm :
+  Perhaps one of the most important point about the program, as the entire idea of the project is to draw a 2D grid and then give it a 3D illusion by rotating the x axies of the scene and giving the points random Z values between a given range. As mentioned above the progranm demonstrates the need for organic noise generating algorithms (sometimes even dedicated hardware), as normal pseudo-random algorithms does not make it.\
+  The program uses *[Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise)* algorithm, a type of gradient noise developed by [Ken Perlin](https://en.wikipedia.org/wiki/Ken_Perlin), and will allow you to compare it with the normal pseudo-random algorithm provided with Java.
+  <p align="center">
+  <img width="700" align="center" src="https://github.com/esammahdi/Processing/blob/main/Terrain%20Generator/.github_usercontent/javaw_MLv45cfaR4.png" alt="Start screen"/>
+</p
 1. Width/Height, Rotation Angles, Fill, Stroke, Speed, Direction and other parameters : 
 2. Mesh Type :
 3. Lightning :
@@ -65,6 +70,7 @@ Known issues and limitations
 + Images in WholeImage mode are blurry and unclear :
 + UI elements may going over the screen :
 + Wrong vertex selection for some mesh types : 
++ Sliders initial values :
 
 
 License

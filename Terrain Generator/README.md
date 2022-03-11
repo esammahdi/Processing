@@ -54,6 +54,7 @@ The program offers various features to try:
 
 1. **Noise Algorithm** :
   Perhaps one of the most important point about the program, as the entire idea of the project is to draw a 2D grid and then give it a 3D illusion by rotating the x axies of the scene and giving the points random Z values between a given range. As mentioned above the progranm demonstrates the need for organic noise generating algorithms (sometimes even dedicated hardware), as normal pseudo-random algorithms does not make it.\
+  
   The program uses *[Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise)* algorithm -a type of gradient noise developed by [Ken Perlin](https://en.wikipedia.org/wiki/Ken_Perlin)- and will allow you to compare it with the normal pseudo-random algorithm provided with Java.
   The scene in the gif below starts with the perlin noise algorithm, and then changes to the normal random algorithm, see the difference for your self: 
   <p align="center">
@@ -83,13 +84,11 @@ The program offers various features to try:
 
   I think this is where I was inspired to come up with this idea of using the terrain as a screen and then projecting an image of your choice into it.
   <p align="center">
-  <img width="700" align="center" src=".github_usercontent/NoiseAlgorithm.gif" alt="Start screen"/>
+  <img width="700" align="center" src=".github_usercontent/WholeImageMode.gif" alt="Start screen"/>
 </p>
   
-9. **Recording** :
+8. **Recording** :
 
-
-Finally, the [Authors and history](#authors-and-history) section should inform readers who the authors are; it is also a place where you can acknowledge other contributions to the work and the use of other people's software or tools.
 
 
 Known issues and limitations
@@ -118,10 +117,7 @@ Authors and history
 Acknowledgments
 ---------------
 
-If your work was funded by any organization or institution, acknowledge their support here.  In addition, if your work relies on other software libraries, or was inspired by looking at other work, it is appropriate to acknowledge this intellectual debt too.  For example, in the process of developing this file, I used not only my own ideas and experiences &ndash; I read many (sometimes contradictory) recommendations for README files and examined real READMEs in actual use, and tried to distill the best ideas into the result you see here.  Sources included the following:
+As mentioned above, the main part of the project(drawing the terrain) was taken from Daniel Shiffman's channel. You can find the video below.
 
+* https://www.youtube.com/watch?v=IKB1hWWedMk
 
-* https://github.com/davidbgk/open-source-template/
-* https://www.makeareadme.com
-* https://github.com/lappleapple/feedmereadmes
-* https://github.com/badges/shields

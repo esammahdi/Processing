@@ -67,15 +67,19 @@ The program offers various features to try:
   Processing comes with a built-in *[texture()](https://processing.org/reference/texture_.html)* function, which just require you to provide the vertices and the uv wrap will be done automaticly :
   
   <p align="center">
-  <img width="700" align="center" src=".github_usercontent/NoiseAlgorithm.gif" alt="Start screen"/>
+  <img width="700" align="center" src=".github_usercontent/TextureMode.gif" alt="Start screen"/>
 </p>
   
-  In our case, adding a texture to the terrain allows us to give it a more natural feeling. However, you can do better if you linear enterpolat the texture color based on the Z coordinates of that point.
+  In our case, adding a texture to the terrain allows us to give it a more natural feeling. However, you can do better if you linear enterpolat the texture color based on the Z coordinates of that point.\
 7. **WholeImage Mode** :
   Take a look at the gif below. Remember scenes like this?
 <p align="center">
-  <img width="700" align="center" src=".github_usercontent/NoiseAlgorithm.gif" alt="Start screen"/>
+  <img width="700" align="center" src=".github_usercontent/Flag_blowing_in_wind_A_blender_animation.gif" alt="Start screen"/>
 </p>
+<p align="center">
+  <em><a href="https://www.youtube.com/watch?v=mg-iwzDGlBA">Credit: Flightking14</a></em>
+</p>
+
 
   I think this is where I was inspired to come up with this idea of using the terrain as a screen and then projecting an image of your choice into it.
   <p align="center">
@@ -106,7 +110,9 @@ This program is distributed under the terms of the [Creative Commons 1.0 Univers
 Authors and history
 ---------------------------
 
-In this section, list the authors and contributors to your software project.  (The original author of this file is [Mike Hucka](http://www.cds.caltech.edu/~mhucka/).)  Adding additional notes here about the history of the project can make it more interesting and compelling.
+* Esam Bashir :
+* Daniel Shiffman : Even though I did the project alone, it's main part was taken from Daniel's youtube channel [![](https://img.shields.io/youtube/channel/subscribers/UCvjgXvBlbQiydffZU7m1_aw?label=The%20Coding%20Train&style=social)](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
+
 
 
 Acknowledgments

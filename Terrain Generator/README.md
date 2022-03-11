@@ -34,7 +34,7 @@ Installation
 
 After you download or clone the repository the directory structure should look like this :
 <p align="center">
-  <img width="700" align="center" src=".github_usercontent/javaw_MLv45cfaR4.png" alt="Project Directory Structure"/>
+  <img width="700" align="center" src=".github_usercontent/Directory.png" alt="Project Directory Structure"/>
 </p>
 The only prerequisite needed to launch the app is having java (v.17+) installed on your machine. After that you can just run the executable in the 
 [application.windows](application.windows) folder!\
@@ -54,7 +54,7 @@ The program offers various features to try:
 
 1. **Noise Algorithm** :
   Perhaps one of the most important point about the program, as the entire idea of the project is to draw a 2D grid and then give it a 3D illusion by rotating the x axies of the scene and giving the points random Z values between a given range. As mentioned above the progranm demonstrates the need for organic noise generating algorithms (sometimes even dedicated hardware), as normal pseudo-random algorithms does not make it.\
-  The program uses *[Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise)* algorithm, a type of gradient noise developed by [Ken Perlin](https://en.wikipedia.org/wiki/Ken_Perlin), and will allow you to compare it with the normal pseudo-random algorithm provided with Java.
+  The program uses *[Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise)* algorithm -a type of gradient noise developed by [Ken Perlin](https://en.wikipedia.org/wiki/Ken_Perlin)- and will allow you to compare it with the normal pseudo-random algorithm provided with Java.
   The scene in the gif below starts with the perlin noise algorithm, and then changes to the normal random algorithm, see the difference for your self: 
   <p align="center">
   <img width="700" align="center" src=".github_usercontent/NoiseAlgorithm.gif" alt="Start screen"/>
@@ -63,8 +63,26 @@ The program offers various features to try:
 2. **Width/Height, Rotation Angles, Fill, Stroke, Speed, Direction and other parameters** : 
 3. **Mesh Type** :
 4. **Lightning** :
-5. **Texture Mode** :
-6. **WholeImage Mode** :
+5. **Texture Mode** : 
+  Processing comes with a built-in *[texture()](https://processing.org/reference/texture_.html)* function, which just require you to provide the vertices and the uv wrap will be done automaticly :
+  
+  <p align="center">
+  <img width="700" align="center" src=".github_usercontent/NoiseAlgorithm.gif" alt="Start screen"/>
+</p>
+  
+  In our case, adding a texture to the terrain allows us to give it a more natural feeling. However, you can do better if you linear enterpolat the texture color based on the Z coordinates of that point.
+7. **WholeImage Mode** :
+  Take a look at the gif below. Remember scenes like this?
+<p align="center">
+  <img width="700" align="center" src=".github_usercontent/NoiseAlgorithm.gif" alt="Start screen"/>
+</p>
+
+  I think this is where I was inspired to come up with this idea of using the terrain as a screen and then projecting an image of your choice into it.
+  <p align="center">
+  <img width="700" align="center" src=".github_usercontent/NoiseAlgorithm.gif" alt="Start screen"/>
+</p>
+  
+9. **Recording** :
 
 
 Finally, the [Authors and history](#authors-and-history) section should inform readers who the authors are; it is also a place where you can acknowledge other contributions to the work and the use of other people's software or tools.

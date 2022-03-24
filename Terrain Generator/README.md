@@ -23,7 +23,7 @@ Table of contents
 Introduction
 ------------
 
-A simple procedual 3D terrain generator made using [Processing](https://processing.org/) Language, meant as a project for a Computer Graphics class. The initial goal was to learn how to turn a basic 2D grid into a moving 3D terrain, but it later evolved into displaying pictures and textures on the grid.
+A simple procedual 3D terrain generator made using *[Processing Language](https://processing.org/)*, meant as a project for a Computer Graphics class. The initial goal was to learn how to turn a basic 2D grid into a moving 3D terrain, but it later evolved into displaying pictures and textures on the grid.
 
 The program offers a UI that allows the user to tweak various parameters such as the width/height of the grid, movement speed/direction ...etc. The changes are reflected in the rendered scene immediatlly.
 

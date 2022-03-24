@@ -88,16 +88,22 @@ The program offers various features to try:
 </p>
   
 8. **Recording** :
+Ok, you did all sort of magic with tha app, and then? Would't it feel nice to be able to at least get some solid results after all of this? That is why 'Recording Mode' is here. As the name indicates, it allows you to record the terrain scene you are running right now. However,it only captures the frames. You will have to use other programs to combine them and turn them into a video.\
+You can start recording by checking the box 'Record' at the bottom. After you start the recording, the circle at the bottom of the scene is going to turn red, indicating that recording has started. Once finished, simply uncheck the box and the recording should stop./
+The frames are saved to a folder named 'output' in the project directoy :
+<p align="center">
+  <img width="700" align="center" src=".github_usercontent/Directory.png" alt="Project Directory Structure"/>
+</p>
 
-
+However, since the capturing is done internaly, it affects perfomance in a noticable way, as you should have noticed from the gif above.
 
 Known issues and limitations
 ----------------------------
-+ Camera Issue :
-+ Images in WholeImage mode are blurry and unclear :
-+ UI elements may going over the screen :
-+ Wrong vertex selection for some mesh types : 
-+ Sliders initial values :
++ **Camera Issue** :  You should have noticed that whenever you press and the drag the mouse on the left side of the app the scene inside also gets affected, despite you not touching the scene screen at all. The camera mode is enabled by the [PeasyCam](https://mrfeinberg.com/peasycam/) module for Processing sketches. The PeasyCam module usually takes the current window as an argument to apply the camera effects to it. The terrain scene is a seperate scene inside the main window, and I believe that is the source of the problem.\
+_Update : I have been able to solve the issue by removing the PeasyCam module I added manually and instead used the option provided by the G4P builder directly._
++ **UI elements going over the screen** : Specially apparent in laptops, the main window is not big enough to contain the UI elements, and some sliders' lables are not showing correctly. You may try to set a better layout by editing the source code using _Processing_ and  _G4P_ ( a Drag and Drop gui builder for processing sketches).
++ **Wrong vertex selection for some mesh types** : When you change the mesh type to _QUADS_ or _TRIANGLES_ for example, the terrain drawn is not correct. That is due to the wrong selection of vertecies coordinates internally. In Processing, you can create shapes by using default functions (e.g. _ellipse()_) or by using the _beginShape()_ function that allows you to create arbitray shapes by selecting the vertecies and some other properties. You can see [_beginShape()_ ](https://processing.org/reference/beginShape_.html), you have to choose the vertecies correctly for each shape type, else aribitrary shapes may be drawn. 
++ **Sliders initial values** : The default values for some properites are different from the default sliders' values. As a result, when trying to change the values via the sliders, the scene may change drasticlly even if you just touched the slider slightly.
 
 
 License
@@ -109,8 +115,8 @@ This program is distributed under the terms of the [Creative Commons 1.0 Univers
 Authors and history
 ---------------------------
 
-* Esam Bashir :
-* Daniel Shiffman : Even though I did the project alone, it's main part was taken from Daniel's youtube channel [![](https://img.shields.io/youtube/channel/subscribers/UCvjgXvBlbQiydffZU7m1_aw?label=The%20Coding%20Train&style=social)](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
+* Esam Bashir : The original author.
+* Daniel Shiffman : Even though I did the project alone, it's core idea was taken from Daniel's youtube channel [![](https://img.shields.io/youtube/channel/subscribers/UCvjgXvBlbQiydffZU7m1_aw?label=The%20Coding%20Train&style=social)](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 
 
 

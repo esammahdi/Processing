@@ -98,7 +98,7 @@ After you start the recording, the circle at the bottom of the scene is going to
 <p align="center">
   <img width="700" align="center" src=".github_usercontent/RecordingMode.gif" alt="RecordingMode"/>
 </p>
-Once finished, simply uncheck the box and the recording should stop./
+Once finished, simply uncheck the box and the recording should stop.
 The frames are saved to a folder named 'output' in the project directoy :
 <p align="center">
   <img width="700" align="center" src=".github_usercontent/recordingOutput.png" alt="recordingOutput"/>

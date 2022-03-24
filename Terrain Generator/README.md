@@ -88,13 +88,21 @@ The program offers various features to try:
 </p>
   
 8. **Recording** :
-Ok, you did all sort of magic with tha app, and then? Would't it feel nice to be able to at least get some solid results after all of this? That is why 'Recording Mode' is here. As the name indicates, it allows you to record the terrain scene you are running right now. However,it only captures the frames. You will have to use other programs to combine them and turn them into a video.\
-You can start recording by checking the box 'Record' at the bottom. After you start the recording, the circle at the bottom of the scene is going to turn red, indicating that recording has started. Once finished, simply uncheck the box and the recording should stop./
+Ok, you did all sort of magic with tha app, and then? Would't it feel nice to be able to at least get some solid results after all of this? That is why 'Recording Mode' is here. As the name indicates, it allows you to record the terrain scene you are running right now. However,it only captures the frames. You will have to use other programs to combine them and turn them into a video.
+
+You can start recording by checking the box 'Record' at the bottom :
+<p align="center">
+  <img width="700" align="center" src=".github_usercontent/recordBox.png" alt="Record Check Box"/>
+</p>
+After you start the recording, the circle at the bottom of the scene is going to turn red, indicating that recording has started :
+<p align="center">
+  <img width="700" align="center" src=".github_usercontent/RecordingMode.gif" alt="RecordingMode"/>
+</p>
+Once finished, simply uncheck the box and the recording should stop./
 The frames are saved to a folder named 'output' in the project directoy :
 <p align="center">
-  <img width="700" align="center" src=".github_usercontent/Directory.png" alt="Project Directory Structure"/>
+  <img width="700" align="center" src=".github_usercontent/recordingOutput.png" alt="recordingOutput"/>
 </p>
-
 However, since the capturing is done internaly, it affects perfomance in a noticable way, as you should have noticed from the gif above.
 
 Known issues and limitations

@@ -3,8 +3,8 @@ TerrainGenerator: A Procedual 3D Terrain Generator
 
 A simple procedual 3D terrain generator made using *[Processing Language](https://processing.org/)* , meant as a project for a Computer Graphics class. However, it has been extended with functionalaties like Texture Mode, WholeImage mode and Recording (see: [Usage](#usage).)
 
-[![License](https://img.shields.io/badge/License-CC0-lightgray.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Latest release](http://img.shields.io/badge/beta-0.1.0-blue.svg?style=flat-square)](https://github.com/mhucka/readmine/releases)
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgray.svg?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
+[![Latest release](http://img.shields.io/badge/beta-0.1.0-blue.svg?style=flat-square)](./)
 
 
 

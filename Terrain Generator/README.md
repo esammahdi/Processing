@@ -117,7 +117,7 @@ _Update : I have been able to solve the issue by removing the PeasyCam module I 
 License
 -------
 
-This program is distributed under the terms of the [Creative Commons 1.0 Universal license (CC0)](https://creativecommons.org/publicdomain/zero/1.0/).  The license applies to this file and other files in the [GitHub repository](https://github.com/esammahdi/Processing/edit/main/Terrain%20Generator/) hosting this file.
+This program is distributed under the terms of the [Creative Commons BY 4.0 license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  The license applies to this file and other files in the [GitHub repository](https://github.com/esammahdi/Processing/edit/main/Terrain%20Generator/) hosting this file.
 
 
 Authors and history

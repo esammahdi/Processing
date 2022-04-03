@@ -1,7 +1,7 @@
 TerrainGenerator: A Procedual 3D Terrain Generator
 =================================================
 
-A simple procedual 3D terrain generator made using *[Processing Language](https://processing.org/)* , meant as a project for a Computer Graphics class. However, it has been extended with functionalaties like Texture Mode, WholeImage mode and Recording (see: [Usage](#usage).)
+A simple procedural 3D terrain generator made using *[Processing Language](https://processing.org/)* , meant as a project for a Computer Graphics class. However, it has been extended with functionalaties like Texture Mode, WholeImage mode and Recording (see: [Usage](#usage).)
 
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgray.svg?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 [![Latest release](http://img.shields.io/badge/beta-0.1.0-blue.svg?style=flat-square)](./)
@@ -23,11 +23,11 @@ Table of contents
 Introduction
 ------------
 
-A simple procedual 3D terrain generator made using *[Processing Language](https://processing.org/)*, meant as a project for a Computer Graphics class. The initial goal was to learn how to turn a basic 2D grid into a moving 3D terrain, but it later evolved into displaying pictures and textures on the grid.
+A simple procedural 3D terrain generator made using *[Processing Language](https://processing.org/)*, meant as a project for a Computer Graphics class. The initial goal was to learn how to turn a basic 2D grid into a moving 3D terrain, but it later evolved into displaying pictures and textures on the grid.
 
-The program offers a UI that allows the user to tweak various parameters such as the width/height of the grid, movement speed/direction ...etc. The changes are reflected in the rendered scene immediatlly.
+The program offers a UI that allows the user to tweak various parameters such as the width/height of the grid, movement speed/direction ...etc. The changes are reflected in the rendered scene immediately.
 
-The program also demonstrates the importance of having a good organic noise generating algorithm, as the psuedo-random algorithm that comes with most programming languages just does not make it.
+The program also demonstrates the importance of having a good organic noise generating algorithm, as the pseudo-random algorithm that comes with most programming languages just does not make it.
 
 Installation
 ------------

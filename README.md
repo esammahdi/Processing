@@ -1,4 +1,4 @@
-TerrainGenerator: A Procedual 3D Terrain Generator
+TerrainGenerator: A Procedural  3D Terrain Generator
 =================================================
 
 A simple procedural 3D terrain generator made using *[Processing Language](https://processing.org/)* , meant as a project for a Computer Graphics class. However, it has been extended with functionalaties like Texture Mode, WholeImage mode and Recording (see: [Usage](#usage).)
